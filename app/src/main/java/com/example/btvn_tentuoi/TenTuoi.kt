@@ -8,7 +8,7 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class TenTuoi : AppCompatActivity() {
 
     private lateinit var edtName: EditText
     private lateinit var edtAge: EditText
@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.tentuoi)
 
         edtName = findViewById(R.id.edtName)
         edtAge = findViewById(R.id.edtAge)
