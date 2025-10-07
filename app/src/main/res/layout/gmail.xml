@@ -9,7 +9,6 @@
     android:background="@android:color/white"
     tools:context=".Gmail">
 
-    <!-- Tiêu đề -->
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
@@ -22,7 +21,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
-    <!-- Ô nhập email -->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tilEmail"
         style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
@@ -46,7 +44,6 @@
             android:imeOptions="actionDone"/>
     </com.google.android.material.textfield.TextInputLayout>
 
-    <!-- Thông báo lỗi hoặc thành công -->
     <TextView
         android:id="@+id/tvMessage"
         android:layout_width="0dp"
@@ -57,7 +54,6 @@
         app:layout_constraintStart_toStartOf="@id/tilEmail"
         app:layout_constraintEnd_toEndOf="@id/tilEmail"/>
 
-    <!-- Nút kiểm tra -->
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnCheck"
         style="@style/Widget.MaterialComponents.Button"
