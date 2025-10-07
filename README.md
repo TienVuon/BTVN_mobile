@@ -1,2 +1,5 @@
+# BTVN_TenTuoi
 
-![Uploading Screenshot 2025-10-07 100511.jpg…]()
+Giao diện ứng dụng:
+
+![UI Screenshot](images/screenshot_ui.jpg)
